@@ -1,3 +1,7 @@
+*{
+   --left-padding: 5vw;
+}
+
 body{
     background-color: lightblue;
     display: flex;
@@ -6,7 +10,6 @@ body{
 
 form{
     background-color: azure;
-    padding-left: 50px;
 }
 
 .splash{
@@ -26,11 +29,15 @@ form{
 }
 
 .intro-text{
-    font-size: 1.25rem;
-    max-width: 75ch;
+    font-size: 1.7rem;
+    max-width: 50ch;
     padding-left: 50px;
     margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+}
+
+.intro-text > p{
+    margin: 0px;
 }
 
 
@@ -38,12 +45,37 @@ form{
  display: flex;
  flex-direction: row;
  flex-wrap: wrap;
+ gap: 20px;
+ padding-left: var(--left-padding);
+ box-shadow: 1px 1px 5px rgb(218, 218, 218);
+ padding-bottom: 20px;
+ border-top: 1px solid;
 }
 
 .inputfield{
- width: 50%;
+ width: 40%;
+ margin-right: 60px
 }
 
 label,input{
-display: block;;
+display: block;
+width: 100%;
+font-size: 1.2rem;
+}
+
+button{
+    margin-top: 30px;
+    width: 30%;
+    height: 40px;
+    font-size: 1.7rem;
+    padding: 0px;
+
+}
+.account-access{
+    padding-left: var(--left-padding);
+    display: flex;
+    flex-direction: column ;
+}
+.account-prompt{
+    font-size: 1rem;
 }
