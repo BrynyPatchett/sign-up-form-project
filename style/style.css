@@ -1,0 +1,49 @@
+body{
+    background-color: lightblue;
+    display: flex;
+    margin: 0px;
+}
+
+form{
+    background-color: azure;
+    padding-left: 50px;
+}
+
+.splash{
+    background-color: lightgreen;
+    width: 40vw;
+    height: 100vh;
+}
+
+.signup{
+    background-color: lightcoral;
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.intro-text{
+    font-size: 1.25rem;
+    max-width: 75ch;
+    padding-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+
+.inputs{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+
+.inputfield{
+ width: 50%;
+}
+
+label,input{
+display: block;;
+}
