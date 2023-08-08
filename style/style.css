@@ -8,6 +8,7 @@ body{
     background-color: lightblue;
     display: flex;
     margin: 0px;
+    color: blueviolet;
 }
 
 form{
@@ -15,11 +16,11 @@ form{
 }
 
 .splash{
-    background-color: lightgreen;
     width: 40vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url("../images/stars.jpg");
 }
 
 .signup{
@@ -68,6 +69,7 @@ label,input{
 display: block;
 width: 100%;
 font-size: 1.2rem;
+border-radius: 7px;
 }
 
 button{
@@ -76,6 +78,7 @@ button{
     height: 40px;
     font-size: 1.7rem;
     padding: 0px;
+    border-radius: 9px;
 
 }
 .account-access{
@@ -89,7 +92,7 @@ button{
 }
  .banner{
     position: relative;
-    background-color: brown;
+    background-color: #8a2be24f;
     top: 20vh;
     text-align: center;
     display: flex;
